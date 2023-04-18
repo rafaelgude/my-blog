@@ -1,4 +1,50 @@
-baseURL = 'http://hugo-quickstart-template.netlify.com'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'Netlify + Hugo Quickstart'
-theme = 'netlify-basic'
+title = 'Rafael Gude Thoughts'
+theme = "hugo-blog-awesome"
+enableEmoji = true
+
+[menu]
+  [[menu.main]] 
+    pageRef = "/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef = "posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef = "about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+[params] 
+  sitename = "Rafael Gude" 
+  defaultColor = "dark"
+  description = "Rafael Gude - Thoughts and tech stuff"
+  mainSections = ['posts']
+
+[params.author]
+  avatar = "avatar.jpeg"
+  intro = "Rafael Gude"
+  name = "Rafael Gude"
+  description = "Thoughts and tech stuff"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/rafaelgude/"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/rafaelgude"
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/Rafael_Gude"
+
+[[params.socialIcons]]
+  name = "Rss"
+  url = "index.xml"
