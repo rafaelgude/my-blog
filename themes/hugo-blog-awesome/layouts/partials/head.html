@@ -16,7 +16,8 @@
   <link href="{{ $style.RelPermalink }}" rel="stylesheet">
   {{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint -}}
   <link href="{{ $code_syntax_highlight_css.RelPermalink }}" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  {{- $customStyle := resources.Get "styles.scss" | toCSS | minify | fingerprint -}}
+  <link href="{{ $customStyle.RelPermalink }}" rel="stylesheet">
 
   {{/*  Favicons  */}}
 
