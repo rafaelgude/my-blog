@@ -3,3 +3,8 @@
 
 # Package Files
 node_modules/
+
+node_modules
+
+# Envs
+.env
