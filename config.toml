@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://rafaelgude.dev/'
 languageCode = 'en-us'
 title = "Rafael Gude"
 theme = "hugo-blog-awesome"
