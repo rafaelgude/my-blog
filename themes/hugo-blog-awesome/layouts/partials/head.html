@@ -6,8 +6,8 @@
 
   <link rel="canonical" href="{{ .Permalink }}">
   {{- with .OutputFormats.Get "RSS" }}
-  <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
-  <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}">
+  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
+  <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}">
   {{- end -}}
 
   {{/*  Styles  */}}
@@ -16,8 +16,8 @@
   <link href="{{ $style.RelPermalink }}" rel="stylesheet">
   {{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint -}}
   <link href="{{ $code_syntax_highlight_css.RelPermalink }}" rel="stylesheet">
-  {{- $customStyle := resources.Get "styles.scss" | toCSS | minify | fingerprint -}}
-  <link href="{{ $customStyle.RelPermalink }}" rel="stylesheet">
+  {{- $customStyleS := resources.Get "styles.scss" | toCSS | minify | fingerprint -}}
+  <link href="{{ $customStyleS.RelPermalink }}" rel="stylesheet">
 
   {{/*  Favicons  */}}
 
