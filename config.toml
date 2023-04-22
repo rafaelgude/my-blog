@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Rafael Gude Thoughts'
+title = "Rafael Gude"
 theme = "hugo-blog-awesome"
 enableEmoji = true
 
