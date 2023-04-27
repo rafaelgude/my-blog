@@ -24,14 +24,14 @@ enableEmoji = true
 [params] 
   sitename = "Rafael Gude" 
   defaultColor = "dark"
-  description = "Rafael Gude - Thoughts and tech stuff"
+  description = "Rafael Gude - Sharing some tech and life stuff"
   mainSections = ['posts']
 
 [params.author]
   avatar = "avatar.jpeg"
   intro = "Rafael Gude"
   name = "Rafael Gude"
-  description = "Thoughts and tech stuff"
+  description = "Sharing some tech and life stuff"
 
 [[params.socialIcons]]
   name = "linkedin"
