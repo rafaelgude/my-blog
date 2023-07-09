@@ -8,3 +8,7 @@ node_modules
 
 # Envs
 .env
+
+# TinaCMS
+tina/__generated__
+resources/_gen/
