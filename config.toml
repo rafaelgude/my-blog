@@ -1,5 +1,5 @@
-baseURL = 'https://rafaelgude.dev/'
-languageCode = 'en-us'
+baseURL = "https://rafaelgude.dev/"
+languageCode = "en-us"
 title = "Rafael Gude"
 theme = "hugo-blog-awesome"
 enableEmoji = true
@@ -7,25 +7,25 @@ enableEmoji = true
 [menu]
   [[menu.main]] 
     pageRef = "/"
-    name = 'Home'
-    url = '/'
+    name = "Home"
+    url = "/"
     weight = 10
   [[menu.main]]
     pageRef = "posts"
-    name = 'Posts'
-    url = '/posts/'
+    name = "Posts"
+    url = "/posts/"
     weight = 20
   [[menu.main]]
     pageRef = "about"
-    name = 'About'
-    url = '/about/'
+    name = "About"
+    url = "/about/"
     weight = 30
 
 [params] 
   sitename = "Rafael Gude" 
   defaultColor = "dark"
   description = "Rafael Gude - Sharing some tech and life stuff"
-  mainSections = ['posts']
+  mainSections = ["posts"]
 
 [params.author]
   avatar = "avatar.jpeg"
