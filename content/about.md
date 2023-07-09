@@ -2,6 +2,7 @@
 title: "About"
 bodyTitle: "Hi! I'm Rafael Gude 🙂"
 hideDate: true
+hideComments: true
 ---
 
 I'm a Software Developer and I've been working in this field since 2017. I'm focused in backend, but I also had some experiences with frontend that I liked.
