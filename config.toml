@@ -1,50 +1,51 @@
-baseURL = "https://rafaelgude.dev/"
-languageCode = "en-us"
-title = "Rafael Gude"
-theme = "hugo-blog-awesome"
+baseURL = 'https://rafaelgude.dev/'
+languageCode = 'en-us'
+title = 'Rafael Gude'
+theme = 'hugo-blog-awesome'
 enableEmoji = true
+disqusShortname = 'rafaelgude'
 
 [menu]
   [[menu.main]] 
-    pageRef = "/"
-    name = "Home"
-    url = "/"
+    pageRef = '/'
+    name = 'Home'
+    url = '/'
     weight = 10
   [[menu.main]]
-    pageRef = "posts"
-    name = "Posts"
-    url = "/posts/"
+    pageRef = 'posts'
+    name = 'Posts'
+    url = '/posts/'
     weight = 20
   [[menu.main]]
-    pageRef = "about"
-    name = "About"
-    url = "/about/"
+    pageRef = 'about'
+    name = 'About'
+    url = '/about/'
     weight = 30
 
 [params] 
-  sitename = "Rafael Gude" 
-  defaultColor = "dark"
-  description = "Rafael Gude - Sharing some tech and life stuff"
-  mainSections = ["posts"]
+  sitename = 'Rafael Gude' 
+  defaultColor = 'dark'
+  description = 'Rafael Gude - Sharing some tech and life stuff'
+  mainSections = ['posts']
 
 [params.author]
-  avatar = "avatar.jpeg"
-  intro = "Rafael Gude"
-  name = "Rafael Gude"
-  description = "Sharing some tech and life stuff"
+  avatar = 'avatar.jpeg'
+  intro = 'Rafael Gude'
+  name = 'Rafael Gude'
+  description = 'Sharing some tech and life stuff'
 
 [[params.socialIcons]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/rafaelgude/"
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/rafaelgude/'
 
 [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/rafaelgude"
+  name = 'github'
+  url = 'https://github.com/rafaelgude'
 
 [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/Rafael_Gude"
+  name = 'twitter'
+  url = 'https://twitter.com/Rafael_Gude'
 
 [[params.socialIcons]]
-  name = "Rss"
-  url = "index.xml"
+  name = 'Rss'
+  url = 'index.xml'
