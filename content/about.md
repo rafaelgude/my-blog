@@ -5,7 +5,7 @@ hideDate: true
 hideComments: true
 ---
 
-I'm a Software Developer and I've been working in this field since 2017. I'm focused in backend, but I also had some experiences with frontend that I liked.
+I'm a Software Engineer specialized in backend, but also with a little frontend experience. My expertise lies in the Java ecosystem.
 
 I created this blog to express some ideas about tech and life stuff, some experiences I've had, and some things that I'm currently studying.
 
